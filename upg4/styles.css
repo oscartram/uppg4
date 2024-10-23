@@ -1,0 +1,27 @@
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    background-color: #7FFFD4;
+    background-color: rgb(127, 255, 212);
+}
+
+article,
+footer {
+    background-color: lightblue;
+}
+
+section {
+    display: flex;
+    /*grid-template-columns: 1fr 1fr;*/
+    gap: 10px;
+}
+
+article {
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: 10px;
+
+}
